@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "coordinatemod",
+  "version": "${version}",
+
+  "name": "Coordinates",
+  "description": "This mod add coordinates.",
+  "authors": [
+    "farnfarn02"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "farn.code.FarnModMain"
+    ]
+  },
+  "mixins": [
+      "farncodemixin.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}

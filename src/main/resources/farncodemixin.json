@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "farn.code.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "GuiIngameMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}
